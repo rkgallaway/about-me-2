@@ -9,9 +9,9 @@ I am building out this website to serve as an 'About Me' for my Code Fellows Cla
 ### Links and Resources
 
 * [CSS Reset](https://meyerweb.com/eric/tools/css/reset)
-* Any Links you used as reference
+* [CSS Reference](https://www.w3schools.com/cssref/default.asp)
 
 ### Reflections and Comments and Collaborators
 
 * Collaborators - My accountability partners Lorenzo Ortega and Shelby Harner!
-* This is also a good place to reflect on the tools and resources used and learned
+* This lab was tricky getting the CSS to work with the reset CSS linked as well.
