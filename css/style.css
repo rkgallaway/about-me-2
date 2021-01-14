@@ -2,8 +2,13 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+header {
+  padding: 5px;
+
+}
+
 body {
-  width: 960px;
+  width: 800px;
   border: 1px;
   margin: auto;
 }
@@ -13,12 +18,17 @@ img.resize {
   max-height: 50%;
 }
 
+img {
+  float: left;
+  margin-right: 15px;
+}
+
 ul {
-  list-style-type: circle;
+  list-style-type: square;
   list-style-position: inside;
 }
 
 ol {
-  list-style-type: decimal;
+  list-style-type: square;
   list-style-position: inside;
 }
