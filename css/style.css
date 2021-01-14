@@ -2,6 +2,11 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+  width: 960px;
+  border: 1px;
+  margin: auto;
+}
 
 ul {
   list-style-type: circle;
