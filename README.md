@@ -8,7 +8,7 @@ I am building out this website to serve as an 'About Me' for my Code Fellows Cla
 
 ### Links and Resources
 
-* [submission PR](http://xyz.com)
+* [CSS Reset](https://meyerweb.com/eric/tools/css/reset)
 * Any Links you used as reference
 
 ### Reflections and Comments and Collaborators
