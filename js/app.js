@@ -48,7 +48,9 @@ var responseFive = prompt('Do I have more tattoos than I can count on one hand?'
 
 if (responseFive === 'yes' || responseFive === 'y') {
   // console.log('That\'s right ' + userName + '! Too many that I\'ve lost count');
-  alert('That\'s right ' + userName + '! Too many that I\'ve lost count');
+  alert('That\'s right! Too many that I\'ve lost count');
 } else {
   alert('Sorry, incorrect!');
 }
+
+alert('Thank you for visiting my page ' + userName + '!')
