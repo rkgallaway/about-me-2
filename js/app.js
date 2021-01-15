@@ -53,4 +53,4 @@ if (responseFive === 'yes' || responseFive === 'y') {
   alert('Sorry, incorrect!');
 }
 
-alert('Thank you for visiting my page ' + userName + '!')
+alert('Thank you for visiting my page ' + userName + '!');
