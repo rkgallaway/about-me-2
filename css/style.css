@@ -4,18 +4,19 @@
 
 header {
   padding: 5px;
+  font-size: x-large;
 
 }
 
 body {
-  width: 800px;
+  width: 960px;
   border: 1px;
   margin: auto;
 }
 
 img.resize {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 35%;
+  max-height: 35%;
 }
 
 img {
