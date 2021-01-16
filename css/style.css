@@ -32,6 +32,18 @@ h2 {
   font-weight: bold;
 }
 
+#bio {
+  padding-bottom: 15px;
+}
+
+#work-history {
+  padding-top: 15px;
+}
+
+#goals {
+  padding-top: 15px;
+}
+
 ul {
   list-style-type: square;
   list-style-position: inside;
