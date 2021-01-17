@@ -59,7 +59,6 @@ var tattooNumberGuess = parseInt(prompt('How many tattoos do I have?'));
 // console.log(tattooNumberGuess + ' is the visitor\'s guess');
 var i;
 for (i = 0; i < responseSixGuesses; i++){
-  console.log('in loop' + i);
   if(tattooNumberGuess === myTattooCount){
     alert(`${tattooNumberGuess} is exactly how many tattoos I have!`);
     break;
@@ -77,8 +76,10 @@ if(i === responseSixGuesses){
 var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson'];
 var responseSevenGuesses = 6;
 
-var boyBandGuess = prompt('Can you name any of my favorite boy bands of all time?').toLowerCase();
+var boyBandGuess = prompt('Guess one of my favorite boy bands').toLowerCase();
+console.log(boyBandGuess);
+// for (i = 0; i < responseSevenGuesses; i++){
 
-
+// }
 
 alert('Thank you for visiting my page ' + userName + '!');
