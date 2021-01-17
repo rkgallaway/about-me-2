@@ -73,7 +73,7 @@ if(i === responseSixGuesses){
   alert(`Thanks for playing, but ${myTattooCount} was the correct answer`);
 }
 
-var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson'];
+var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men'];
 var responseSevenGuesses = 6;
 
 var boyBandGuess = prompt('Guess one of my favorite boy bands').toLowerCase();
