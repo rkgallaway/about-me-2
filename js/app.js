@@ -75,6 +75,7 @@ if(i === responseSixGuesses){
 }
 
 var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson'];
+var boyBandGuesses = 6;
 
 
 alert('Thank you for visiting my page ' + userName + '!');
