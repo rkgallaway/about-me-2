@@ -58,18 +58,22 @@ var myTattooCount = 17;
 
 var tattooNumberGuess = parseInt(prompt('How many tattoos do I have?'));
 // console.log(tattooNumberGuess + ' is the visitor\'s guess');
-
-for (var i = 1; i < responseSixGuesses; i++){
-
+var i;
+for (i = 1; i < responseSixGuesses; i++){
+  console.log('in loop' + i);
   if(tattooNumberGuess === myTattooCount){
     alert(`${tattooNumberGuess} is exactly how many tattoos I have!`);
     break;
+  // learn about boolean flags - ask Ryan
   } else if(tattooNumberGuess < myTattooCount){
     tattooNumberGuess = parseInt(prompt('Too low, try again'));
   } else if(tattooNumberGuess > myTattooCount){
     tattooNumberGuess = parseInt(prompt('That\'s way too many...my mama would kill me!'));
   }
 }
-alert(`Thanks for playing, but ${myTattooCount} was the correct answer`);
+if(i === responseSixGuesses){
+  alert(`Thanks for playing, but ${myTattooCount} was the correct answer`);
+}
+
 
 // alert('Thank you for visiting my page ' + userName + '!');
