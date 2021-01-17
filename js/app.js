@@ -76,7 +76,9 @@ if(i === responseSixGuesses){
 
 var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson'];
 var responseSevenGuesses = 6;
-var 
+
+var boyBandGuess = prompt('Can you name any of my favorite boy bands of all time?').toLowerCase();
+
 
 
 alert('Thank you for visiting my page ' + userName + '!');
