@@ -58,7 +58,7 @@ var myTattooCount = 17;
 var tattooNumberGuess = parseInt(prompt('How many tattoos do I have?'));
 // console.log(tattooNumberGuess + ' is the visitor\'s guess');
 var i;
-for (i = 1; i < responseSixGuesses; i++){
+for (i = 0; i < responseSixGuesses; i++){
   console.log('in loop' + i);
   if(tattooNumberGuess === myTattooCount){
     alert(`${tattooNumberGuess} is exactly how many tattoos I have!`);
@@ -74,7 +74,7 @@ if(i === responseSixGuesses){
   alert(`Thanks for playing, but ${myTattooCount} was the correct answer`);
 }
 
-
+var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson'];
 
 
 alert('Thank you for visiting my page ' + userName + '!');
