@@ -73,6 +73,7 @@ if(i === responseSixGuesses){
   alert(`Thanks for playing, but ${myTattooCount} was the correct answer`);
 }
 
+// WIP trying to get this to work properly
 var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson', '98 degrees'];
 var responseQSevenGuesses = 6;
 
