@@ -86,7 +86,7 @@ var correctGuess = false;
 var numOfGuesses = 6;
 
 while(numOfGuesses > 0 && !correctGuess){
-  var boyBandGuess = prompt('Guess one of my favorite boy bands').toLowerCase();
+  var boyBandGuess = prompt('Can you guess one of my favorite boy bands').toLowerCase();
   for (var j = 0; j < favoriteBoyBands.length; j++){
     if(boyBandGuess === favoriteBoyBands[j]){
     //console.log('user guessed right');
@@ -97,10 +97,6 @@ while(numOfGuesses > 0 && !correctGuess){
     }
   }
   numOfGuesses--;
-  if(numOfGuesses > 0 && !correctGuess){
-  //console.log('user guessed wrong');
-    alert('Sorry, guess again!');
-  }
   if(numOfGuesses === 0){
     alert('You\'re out of guesses, but you could have chosen BTS, Backstreet Boys, One Direction, Boyz 2 Men, or 98 Degrees');
   }
