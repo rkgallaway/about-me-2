@@ -10,6 +10,7 @@ I am building out this website to serve as an 'About Me' for my Code Fellows Cla
 
 * [CSS Reset](https://meyerweb.com/eric/tools/css/reset)
 * [CSS Reference](https://www.w3schools.com/cssref/default.asp)
+* [Ryan's Repl.it for lab03](https://repl.it/@rkgallaway/201n21-review-02-if-statements#index.js)
 
 ### Reflections and Comments and Collaborators
 
