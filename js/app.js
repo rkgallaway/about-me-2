@@ -73,6 +73,8 @@ for (i = 0; i < responseSixGuesses; i++){
     tattooNumberGuess = parseInt(prompt('Too low, try again'));
   } else if(tattooNumberGuess > myTattooCount){
     tattooNumberGuess = parseInt(prompt('That\'s way too many...my mama would kill me!'));
+  } else{
+    tattooNumberGuess = parseInt(prompt('Enter a number and guess many tattoos do I have'));
   }
 }
 if(i === responseSixGuesses){
