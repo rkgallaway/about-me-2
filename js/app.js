@@ -60,12 +60,12 @@ if (responseFive === 'yes' || responseFive === 'y') {
 
 var responseSixGuesses = 4;
 var myTattooCount = 17;
-var tattooNumberGuess = parseInt(prompt('How many tattoos do I have?'));
+var tattooNumberGuess = parseInt(prompt('Enter a number and guess many tattoos do I have'));
 // console.log(tattooNumberGuess + ' is the visitor\'s guess');
 var i;
 for (i = 0; i < responseSixGuesses; i++){
   if(tattooNumberGuess === myTattooCount){
-    alert(`${tattooNumberGuess} is exactly how many tattoos I have!`);
+    alert(`Thats right! ${tattooNumberGuess} is exactly how many tattoos I have!`);
     userScore++;
     break;
   // learn about boolean flags - ask Ryan
@@ -78,8 +78,6 @@ for (i = 0; i < responseSixGuesses; i++){
 if(i === responseSixGuesses){
   alert(`You're out of guesses, but ${myTattooCount} was the correct answer`);
 }
-
-// WIP trying to get this to work properly
 
 var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', '98 degrees'];
 var correctGuess = false;
