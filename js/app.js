@@ -75,25 +75,26 @@
 
 // WIP trying to get this to work properly
 
-var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', 'hanson', '98 degrees'];
+var favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', '98 degrees'];
 var correctGuess = false;
 var numOfGuesses = 6;
 
 while(numOfGuesses > 0 && !correctGuess){
   var boyBandGuess = prompt('Guess one of my favorite boy bands').toLowerCase();
-  numOfGuesses--;
+  // numOfGuesses--;
   for (var i = 0; i < favoriteBoyBands.length; i++){
     if(boyBandGuess === favoriteBoyBands[i]){
       alert(`OMG! Yes, I love ${favoriteBoyBands[i]}!`);
       correctGuess = true;
       break;
     }
-    if(numOfGuesses > 0 && correctGuess){
-      boyBandGuess = prompt('Guess one of my favorite boy bands').toLowerCase();
-    }
-    if(numOfGuesses === 0){
-      alert('You\'re out of guesses, but you could have chosen BTS, Backstreet Boys, One Direction, Boyz 2 Men, Hanson, or 98 Degrees');
-      break;
-    }
+  }
+  numOfGuesses--;
+  if(numOfGuesses > 0 && !correctGuess){
+    alert('Sorry, guess again!');
+  }
+  if(numOfGuesses === 0){
+    alert('You\'re out of guesses, but you could have chosen BTS, Backstreet Boys, One Direction, Boyz 2 Men, or 98 Degrees');
   }
 }
+
