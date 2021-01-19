@@ -86,7 +86,7 @@ var correctGuess = false;
 var numOfGuesses = 6;
 
 while(numOfGuesses > 0 && !correctGuess){
-  var boyBandGuess = prompt('Can you guess one of my favorite boy bands').toLowerCase();
+  var boyBandGuess = prompt(`Can you guess one of my favorite boy bands? You get ${numOfGuesses} guesses!`).toLowerCase();
   for (var j = 0; j < favoriteBoyBands.length; j++){
     if(boyBandGuess === favoriteBoyBands[j]){
     //console.log('user guessed right');
