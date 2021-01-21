@@ -8,8 +8,6 @@ alert('Hey ' + userName + ', glad you\'re here!');
 
 var userScore = 0;
 
-
-
 function questionOne(){
   var responseOne = prompt('Am I originally from Seattle, WA?').toLowerCase();
 
@@ -21,9 +19,7 @@ function questionOne(){
     alert('Womp womp...that\'s wrong');
   }
 }
-
 questionOne();
-
 
 
 function questionTwo(){
@@ -37,7 +33,6 @@ function questionTwo(){
     alert('Sorry, incorrect!');
   }
 }
-
 questionTwo();
 
 
@@ -52,8 +47,8 @@ function questionThree(){
     alert('Sorry, incorrect!');
   }
 }
-
 questionThree();
+
 
 function questionFour(){
   var responseFour = prompt('Do I try to act younger and hipper than I really am?').toLowerCase();
@@ -66,9 +61,7 @@ function questionFour(){
     alert('Womp womp..that\'s wrong');
   }
 }
-
 questionFour();
-
 
 
 function questionFive(){
@@ -82,7 +75,6 @@ function questionFive(){
     alert('Sorry, incorrect!');
   }
 }
-
 questionFive();
 
 
@@ -110,7 +102,6 @@ function questionSix(){
     alert(`You're out of guesses, but ${myTattooCount} was the correct answer`);
   }
 }
-
 questionSix();
 
 
@@ -136,7 +127,7 @@ function questionSeven(){
     }
   }
 }
-
 questionSeven();
+
 
 alert(`${userName} you got ${userScore} out 7 questions right! Thanks for playing!`);
