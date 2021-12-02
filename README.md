@@ -18,3 +18,7 @@ I am building out this website to serve as an 'About Me' for my Code Fellows Cla
 * This lab was tricky getting the CSS to work with the reset CSS linked as well.
 * Reflection - not a big fan of loops and if statements at the moment!
 * During lab 04 Max was the driver while I navigated him to move my prompt questions into functions
+
+
+### Pair programming
+- Ryan navigated, Audrey drove 12/2/2021
