@@ -8,7 +8,7 @@ alert('Hey ' + userName + ', glad you\'re here!');
 
 let userScore = 0;
 
-
+function questionOne() {
   let responseOne = prompt('Am I originally from Seattle, WA?').toLowerCase();
 
   if (responseOne === 'no' || responseOne === 'n') {
@@ -18,8 +18,10 @@ let userScore = 0;
   } else {
     alert('Womp womp...that\'s wrong');
   }
+}
+questionOne();
 
-function questionTwo(){
+function questionTwo() {
   let responseTwo = prompt('Do I have a daughter?').toLowerCase();
 
   if (responseTwo === 'yes' || responseTwo === 'y') {
@@ -33,7 +35,7 @@ function questionTwo(){
 questionTwo();
 
 
-function questionThree(){
+function questionThree() {
   let responseThree = prompt('Do I have an obession with celebrities?').toLowerCase();
 
   if (responseThree === 'yes' || responseThree === 'y') {
@@ -47,7 +49,7 @@ function questionThree(){
 questionThree();
 
 
-function questionFour(){
+function questionFour() {
   let responseFour = prompt('Do I try to act younger and hipper than I really am?').toLowerCase();
 
   if (responseFour === 'yes' || responseFour === 'y') {
@@ -61,7 +63,7 @@ function questionFour(){
 questionFour();
 
 
-function questionFive(){
+function questionFive() {
   let responseFive = prompt('Do I have more tattoos than I can count on one hand?').toLowerCase();
 
   if (responseFive === 'yes' || responseFive === 'y') {
@@ -75,43 +77,43 @@ function questionFive(){
 questionFive();
 
 
-function questionSix(){
+function questionSix() {
   let responseSixGuesses = 4;
   let myTattooCount = 17;
   let tattooNumberGuess = parseInt(prompt('Enter a number and guess many tattoos do I have'));
   // console.log(tattooNumberGuess + ' is the visitor\'s guess');
   let i;
-  for (i = 0; i < responseSixGuesses; i++){
-    if(tattooNumberGuess === myTattooCount){
+  for (i = 0; i < responseSixGuesses; i++) {
+    if (tattooNumberGuess === myTattooCount) {
       alert(`Thats right! ${tattooNumberGuess} is exactly how many tattoos I have!`);
       userScore++;
       break;
-    // learn about boolean flags - ask Ryan
-    } else if(tattooNumberGuess < myTattooCount){
+      // learn about boolean flags - ask Ryan
+    } else if (tattooNumberGuess < myTattooCount) {
       tattooNumberGuess = parseInt(prompt('Too low, try again'));
-    } else if(tattooNumberGuess > myTattooCount){
+    } else if (tattooNumberGuess > myTattooCount) {
       tattooNumberGuess = parseInt(prompt('That\'s way too many...my mama would kill me!'));
-    } else{
+    } else {
       tattooNumberGuess = parseInt(prompt('Enter a number and guess many tattoos do I have'));
     }
   }
-  if(i === responseSixGuesses){
+  if (i === responseSixGuesses) {
     alert(`You're out of guesses, but ${myTattooCount} was the correct answer`);
   }
 }
 questionSix();
 
 
-function questionSeven(){
+function questionSeven() {
   let favoriteBoyBands = ['bts', 'backstreet boys', 'one direction', 'boyz 2 men', '98 degrees'];
   let correctGuess = false;
   let numOfGuesses = 6;
-  
-  while(numOfGuesses > 0 && !correctGuess){
+
+  while (numOfGuesses > 0 && !correctGuess) {
     let boyBandGuess = prompt(`Can you guess one of my favorite boy bands? You get ${numOfGuesses} guesses!`).toLowerCase();
-    for (let j = 0; j < favoriteBoyBands.length; j++){
-      if(boyBandGuess === favoriteBoyBands[j]){
-      //console.log('user guessed right');
+    for (let j = 0; j < favoriteBoyBands.length; j++) {
+      if (boyBandGuess === favoriteBoyBands[j]) {
+        //console.log('user guessed right');
         alert(`OMG! Yes, I love ${favoriteBoyBands[j]}!`);
         correctGuess = true;
         userScore++;
@@ -119,7 +121,7 @@ function questionSeven(){
       }
     }
     numOfGuesses--;
-    if(numOfGuesses === 0){
+    if (numOfGuesses === 0) {
       alert('You\'re out of guesses, but you could have chosen BTS, Backstreet Boys, One Direction, Boyz 2 Men, or 98 Degrees');
     }
   }
